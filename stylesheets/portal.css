@@ -1,4 +1,8 @@
 ul {
   font-family:verdana
-  list-style: none;
+  list-style-type: none;
+}
+a {
+  text-decoration:none;
+  text-transform:uppercase;
 }
