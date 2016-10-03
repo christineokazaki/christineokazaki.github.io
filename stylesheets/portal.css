@@ -1,8 +1,8 @@
-ul {
-  font-family:verdana
+ul{
+  font-family:verdana;
   list-style-type: none;
 }
-a {
+a{
   text-decoration:none;
   text-transform:uppercase;
 }
