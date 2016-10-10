@@ -4,6 +4,9 @@ ul{
 }
 a{
   text-decoration:none;
-  text-transform:uppercase;
+  text-transform:lowercase;
   color: maroon;
+  font-size:20px;
+  font-weight:bold;
+  letter-spacing:-2px;
 }
