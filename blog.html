@@ -1,70 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<section class="wrapper">
 <head>
   <title>Christine's Blog</title>
   <meta charset="utf-8">
 
     <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:400,700" rel="stylesheet">
     <link href="stylesheets/blog.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.css" />
+<style type="text/css">
+    a.fancybox img {
+        border: none;
+        -o-transform: scale(1,1); -ms-transform: scale(1,1); -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -o-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out;
+    }
+    a.fancybox:hover img {
+        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
+    }
+</style>
 </head>
 
 
 <body>
 
 
+
   <!-- HEADER --->
   <header>
+    <section class="columns">
+    <section class="headerwrapper">
     <h1>Christine's Blog</h1>
+  </section>
 
+
+    <section class="navigation">
     <nav>
       <h3>find your way</h3>
       <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">contact</a></li>
-        <li><a href="#">more</a></li>
+        <li><a href="http://christineokazaki.github.io/blog">home</a></li>
+        <li><a href="http://christineokazaki.github.io">my portal</a></li>
+        <li><a href="http://codepen.io/christineokazaki">my codepen</a></li>
+        <li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristineokazaki.github.io%2F">W3C Validation</a>
       </ul>
     </nav>
+  </section>
 
-    <nav2>
+
+   <section class="index">
+    <nav>
       <h3>index</h3>
       <ul>
-        <li><a href="#">Date Title</a></li>
-        <li><a href="#">Date Title</a></li>
+        <li><a href="#october4">october 4 2016</a></li>
+        <li><a href="#october10">october 10 2016</a></li>
         <li><a href="#">Date Title</a></li>
         <li><a href="#">Date Title</a></li>
       </ul>
+    </nav>
+  </section>
+
+
   </header>
 
 
 
 <!-- BLOG POSTS---->
+<section class="container">
+<section class="postsleft">
   <article>
-    <h2>blog post #1</h2>
-     <p>blog content</p>
+    <a name ="october4"><h2>Website Critique</h2></a>
+    <h4>october 4 2016</h4>
+     <p>I chose the website <a href="http://speakeasyburlesque.com">speakeasyburlesque.com</a>. The overall design is very aesthetically pleasing, and does a good job
+       of invoking the old-fashioned feel that they are aiming for. The subtle animations and colors of the images also
+       add to the atmosphere and make it fun to scroll the website. The opening video and the text on the home page make their
+       purpose very clear, and the links on the side make the site intuitive and easy to navigate. </br>
+      </br>
+        <img src="images/speakeasy1.png"/>
+
+            I would add a contact form directly on the website under the contact section, just to make it a little bit easier to get
+      immediately in touch with them; this form could include various specifications, depending on whether you wish to book an event,
+      send a question, or ask about interviews, etc. While the fullscreen slideshow effect is more visually pleasing, I would also
+      make a grid option available for the photo gallery, so that visitors could view more than one picture at once. If possible,
+      I would also link to more past events, so that potential customers could see what has been performed previously. </br>
+    </br>
+      <img src="images/speakeasy2.png"/>
+      <img src="images/speakeasy3.png"/>
+            Overall, I think the website is effective in presenting its purpose in a creative and fun way for people to explore.
+      It utilizes hierarchy effectively to immediately let the viewer know what the website is for, and makes good use of
+      its images and other media to emphasize that.
+</p>
   </article>
 
+
+
+</section>
+
+
+</section>
+
+<section class="containerright">
+<section class="postsright">
   <article>
-    <h2>blog post #1</h2>
-     <p>blog content</p>
+    <a name="october10"><h2>Building a Website</h2></a>
+    <h4>october 10 2016</h4>
+     <p>The whole process went relatively smoothly, and helped me arrive at a better understanding of building a website. Even though
+       we were copying a code, it was still necessary to keep refreshing, checking, and making adjustments. I found difficulties
+       with the following:</br></br>
+
+       	» Adjusting to typing code from the outside in</br>
+       	» Adding the internal page -- initially, I did not realize that all you needed to do was copy the HTML code from the original
+         page then make adjustments</br>
+       	» Linking the home page to the banner -- Since we copied the code, I did not realize that we had to change the link to
+         coffeeshop.html on both the home page and the roasters.html page in order for it to work</br>
+       » Fixing the navigation’s alignment when the margins and padding were incorrect</br>
+     </br>
+	   On the other hand, having had experience with CSS before, I found it easy and somewhat exciting to follow along with the CSS
+  and make the website appear the way it was intended to. It was interesting to get familiar with coding once again and
+  learn about the purpose behind some coding that I had seen before, but did not know the meaning of, such as display:block,
+  and the float properties.</br></br>
+	   In the future, I would like to go over everything more carefully, and attempt to write my own code. Although it
+  was good practice to follow along with building a website from someone else’s code, next time, I would like to see
+  how much I can remember and what I am capable of doing on my own.
+</p>
   </article>
 
-  <article>
-    <h2>blog post #1</h2>
-     <p>blog content</p>
-  </article>
+  </section>
+</section>
 
-  <article>
-    <h2>blog post #1</h2>
-     <p>blog content</p>
-  </article>
 
 <!--- FOOTER----->
+<div class="footer">
   <footer>
-    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristineokazaki.github.io%2F">W3C Validation</a>
   </footer>
+</div>
 
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/fancybox/1.3.4/jquery.fancybox-1.3.4.pack.min.js"></script>
+<script type="text/javascript">
+    $(function($){
+        var addToAll = true;
+        var gallery = false;
+        var titlePosition = 'inside';
+        $(addToAll ? 'img' : 'img.fancybox').each(function(){
+            var $this = $(this);
+            var title = $this.attr('title');
+            var src = $this.attr('data-big') || $this.attr('src');
+            var a = $('<a href="#" class="fancybox"></a>').attr('href', src).attr('title', title);
+            $this.wrap(a);
+        });
+        if (gallery)
+            $('a.fancybox').attr('rel', 'fancyboxgallery');
+        $('a.fancybox').fancybox({
+            titlePosition: titlePosition
+        });
+    });
+    $.noConflict();
+</script>
+
+</section>
 </body>
 
 
