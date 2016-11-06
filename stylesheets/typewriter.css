@@ -108,7 +108,7 @@ right img {
 	max-width: 100%;
   height: auto;
 	margin-top: 10px;
-	position: relative;
+	padding:0px;
 }
 
 
@@ -117,7 +117,6 @@ left img {
 	height: auto;
 	margin-top:13px;
 	overflow: hidden;
-	position: relative;
 	margin-bottom:-3px;
 }
 
@@ -133,10 +132,9 @@ left img {
 
 nav {
   position: fixed;
-	left: 0px;
+	left: 104px;
 	top:575px;
-	margin-bottom:-9999px;
-  width: 100%;
+  width: 1008px;
   height: 50px;
   padding: 10px;
   background-color: #568da3;
