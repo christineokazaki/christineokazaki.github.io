@@ -54,17 +54,22 @@ table {
 	width: 1024px;
 	margin: auto;
 	height:auto;
+	overflow: hidden;
 }
 
 left {
   width: 464px;
 	float:left;
 	padding-right: 10px;
+	margin-bottom: -99999px;
+  padding-bottom: 99999px;
 }
 
 right {
   width: 550px;
 	float: right;
+	margin-bottom: -99999px;
+  padding-bottom: 99999px;
 }
 
 
