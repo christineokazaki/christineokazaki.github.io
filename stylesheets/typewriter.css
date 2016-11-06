@@ -53,7 +53,7 @@ table {
 .wrapper {
 	width: 1024px;
 	margin: auto;
-	height:auto;
+	max-height:650px;
 	overflow: hidden;
 }
 
