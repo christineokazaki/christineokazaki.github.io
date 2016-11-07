@@ -187,6 +187,9 @@ a:visited {
     color: #568da3;
 }
 
+a:link {
+	color: #568da3;
+}
 em {
 	color: #568da3;
   font-family: 'Arvo', serif;
