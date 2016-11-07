@@ -150,6 +150,9 @@ nav a {
   display: block;
 }
 
+nav a:visited {
+	color: white;
+}
 
 nav li {
   display: inline-block;
@@ -178,6 +181,10 @@ body {
 
 a {
 	text-decoration: none;
+}
+
+a:visited {
+    color: #568da3;
 }
 
 em {
