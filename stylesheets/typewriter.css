@@ -150,6 +150,10 @@ nav a {
   display: block;
 }
 
+nav a:link {
+	color: white;
+}
+
 nav a:visited {
 	color: white;
 }
