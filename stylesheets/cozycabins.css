@@ -52,148 +52,115 @@ table {
 /* --------- MY CODE --------- */
 
 body {
-background-image: url("../images/ccbg.jpg");
-background-size: cover;
-font-family: 'Montserrat', sans-serif;
-font-size: 1.3em;
-color: white;
- }
-
-
+    background-image: url("../images/ccbg.jpg");
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    color: white;
+}
 /* --------- STRUCTURAL ------- */
+
 .page {
-  width: 75%;
-  margin: auto;
-  display: table;
-  max-width: 1024px;
+    width: 75%;
+    margin: auto;
+    display: table;
+    max-width: 1024px;
 }
-
-.nav {
-  width: 100%;
-  margin: auto;
-  display: table;
-  margin-top: -20%;
-  left: 0;
-  padding-bottom: 50px;
-}
-
 .about {
-  display: table;
-  width: 75%;
-  margin: auto;
-  padding: 50px;
-  padding-left: 0px;
-  margin-left: -8px;
+    display: table;
+    width: 75%;
+    margin: auto;
+    padding: 50px;
+    padding-left: 0px;
+    margin-left: -8px;
 }
-
 header {
-  width: 25%;
-  height: 33%;
-  margin-left: -15%;
-  padding: 5%;
+    display: table;
+    width: 100%;
 }
-
 .imgholder {
-  max-width: 25%;
-  display: block;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
-
 .imgholder img {
-  width: 200px;
+    width: 200px;
 }
-
 article {
-  border-top: 3px white solid;
-  padding-bottom: 20px;
-  margin: auto;
-  width: 75%;
+    padding-bottom: 20px;
+    margin: auto;
+    width: 75%;
 }
-
-
 /* ---------- NAV STYLES --------- */
 
 nav {
-  height: 8%;
-  padding: 10px;
-  text-align: center;
-  white-space: nowrap;
-  display: block;
+    height: 8%;
+    padding: 10px;
+    text-align: center;
+    white-space: nowrap;
+    display: table-cell;
+    vertical-align: middle;
 }
-
 nav a {
-  text-decoration: none;
-  font-family: 'Montserrat', serif;
-  font-size: .7em;
-  color: white;
-
+    text-decoration: none;
+    font-family: 'Montserrat', serif;
+    font-size: .7em;
+    color: white;
 }
-
 nav a:link {
-	color: white;
+    color: white;
 }
-
 nav a:visited {
-	color: white;
+    color: white;
 }
-
 nav li {
-  display: inline-block;
-  margin-right: 85px;
+    display: inline-block;
+    margin-right: 85px;
 }
-
-
 .navmobile {
-  width: 11%;
-  position: absolute;
-  left: 10%;
-  top: 5%;
+    width: 11%;
+    position: absolute;
+    left: 10%;
+    top: 5%;
 }
+/* -------- MEDIA QUERIES --------- */
 
-
-@media screen and (min-width: 750px) {
-      .navmobile {
-        display: none; /* hides mobile nav */
-      }
-
-  }
-
+@media screen and (min-width: 724px) {
+    .navmobile {
+        display: none;
+        /* hides mobile nav */
+    }
+}
+@media screen and (max-width: 724px) {
+    .imgholder {
+        display: block;
+        margin: auto;
+    }
+    body {
+        background-image: url("../images/ccmobilebg.jpg");
+        background-size: cover;
+        font-size: 1em;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    nav li {
+        display: none;
+    }
+    .about {
+        display: table;
+        width: 75%;
+        margin: auto;
+        padding: 50px;
+        padding-left: 20px;
+    }
+}
 /* --------- HEADER STYLES ------- */
 
 h1 {
-  font-family: 'Corben', cursive;
-  font-size: 3.5em;
-  padding-top: 10%;
-  padding-bottom: 20px;
-  padding-left: 12%;
+    font-family: 'Corben', serif;
+    font-size: 3.5em;
+    padding-top: 10%;
+    padding-bottom: 20px;
+    border-bottom: 3px white solid;
 }
-
-
-
-@media screen and (max-width: 710px) {
-  .imgholder {
-    display: block;
-    margin: auto;
-    width: 25%;
-  }
-
-  body {
-    background-image: url("../images/ccmobilebg.jpg");
-    background-size: cover;
-  font-size: 1em;}
-
-  h1 {
-    font-size: 3em;
-  }
-
-  nav li {display: none;}
-
-    .about {
-      display: table;
-      width: 75%;
-      margin: auto;
-      padding: 50px;
-      padding-left: 20px;
-    }
-
-
-  }
