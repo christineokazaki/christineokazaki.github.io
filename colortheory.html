@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+  	<title>Christine Okazaki</title>
+  	<link href="stylesheets/portfoliogrid.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto+Condensed:300i,400,700" rel="stylesheet">
+  	<meta name="description" content="Christine Okazaki. Student. Designer. Sans-serif enthusiast.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <div class="wrapper">
+      <div class="hamburgler-menu">
+  <ul class="hamburgler-menu-list">
+    <li><a href="about.html">about</a></li>
+    <li><a href="portfoliogrid.html">work</a></li>
+
+  </ul>
+</div>
+
+<div id="hamburgler" class="hamburgler-icon-wrapper">
+  <span class="hamburgler-icon"></span>
+</div>
+
+    <!--START HEADER-->
+
+    <header>
+
+    </header>
+
+    <!--end header-->
+
+
+
+    <!--START NAV-->
+
+    <nav class="main-nav">
+      <div class="logo-wrapper">
+        <img src="images/logoonblack.jpg" alt="logo"/>
+      </div>
+      <ul>
+        <li><a href="portfoliohome.html">+Home</a></li>
+        <li><a href="about.html">+About</a></li>
+        <li><a href="portfoliogrid.html">+Work</a></li>
+        <li><a href="#">+W3C Validation</a></li>
+      </ul>
+    </nav>
+
+    <!--end nav-->
+
+    <!--START MAIN CONTENT-->
+
+    <main>
+        <figure>
+          <img class="portfolio-img" src="images/DES016_ASSIGNMENT01_OKAZAKICHRISTINE_01.jpg" alt="purple monochromatic iron man"/>
+          <img class="portfolio-img" src="images/DES016_ASSIGNMENT01_OKAZAKICHRISTINE_02.jpg" alt="orange analogous iron man"/>
+          <img class="portfolio-img" src="images/DES016_ASSIGNMENT01_OKAZAKICHRISTINE_03.jpg" alt="pink monochromatic iron man"/>
+          <img class="portfolio-img" src="images/DES016_ASSIGNMENT01_OKAZAKICHRISTINE_04.jpg" alt="complementary iron man"/>
+
+          <figcaption>
+            <h1>color theory</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin porta dapibus turpis, ut faucibus
+              arcu condimentum a. Maecenas viverra sagittis justo, sed faucibus leo cursus non. Pellentesque
+              habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In sit amet volutpat
+              mauris. Sed vitae congue felis, ac scelerisque ante. Mauris luctus nunc turpis, vel accumsan mi placerat
+              vel. Aliquam erat volutpat. Proin ipsum risus, aliquam vel dui id, luctus sagittis ante. Ut consequat leo
+              at eros vestibulum, in varius magna faucibus. Nam vestibulum erat et nisl mattis aliquet. Phasellus non
+              ex laoreet, placerat ipsum ultrices, tincidunt mi. Quisque vestibulum, est et condimentum dictum, dolor
+              mi gravida nulla, ac blandit nunc urna vel sem. Morbi sodales maximus nulla. Sed at dolor risus.
+              Vestibulum ut erat ullamcorper, cursus ante hendrerit, luctus ante.
+            </p>
+          </figcaption>
+        </figure>
+      </main>
+
+
+    <!--end main content-->
+
+
+
+    </div>
+    <script>
+    document.getElementById('hamburgler').addEventListener('click', checkNav);
+    window.addEventListener("keyup", function(e) {
+    if (e.keyCode == 27) closeNav();
+    }, false);
+
+    function checkNav() {
+    if (document.body.classList.contains('hamburgler-active')) {
+      closeNav();
+    } else {
+      openNav();
+    }
+    }
+
+    function closeNav() {
+    document.body.classList.remove('hamburgler-active');
+    }
+
+    function openNav() {
+    document.body.classList.add('hamburgler-active');
+    }
+    </script>
+
+  </body>
+
+</html>

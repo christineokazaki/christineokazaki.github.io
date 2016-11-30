@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Christine Okazaki</title>
+    <link href="stylesheets/portfoliogrid.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto+Condensed:300i,400,700" rel="stylesheet">
+    <meta name="description" content="Christine Okazaki. Student. Designer. Sans-serif enthusiast.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <div class="wrapper">
+      <div class="hamburgler-menu">
+  <ul class="hamburgler-menu-list">
+    <li><a href="about.html">about</a></li>
+    <li><a href="portfoliogrid.html">work</a></li>
+
+  </ul>
+</div>
+
+<div id="hamburgler" class="hamburgler-icon-wrapper">
+  <span class="hamburgler-icon"></span>
+</div>
+
+        <!--START HEADER-->
+
+        <header>
+        </header>
+
+        <!--end header-->
+
+
+
+        <!--START NAV-->
+
+        <nav class="main-nav">
+            <div class="logo-wrapper">
+                <img src="images/logoonblack.jpg" alt="logo" />
+            </div>
+            <ul>
+                <li><a href="portfoliohome.html">+Home</a></li>
+                <li><a href="about.html">+About</a></li>
+                <li><a href="portfoliogrid.html">+Work</a></li>
+                <li><a href="#">+W3C Validation</a></li>
+            </ul>
+        </nav>
+
+        <!--end nav-->
+
+        <!--START MAIN CONTENT-->
+
+        <main>
+            <nav class="portfolio-nav">
+                <ul>
+                    <div class="row1">
+
+                            <li><div class="overlay"><a href="tshirtdesign.html"><img src="images/tshirtdesignthumbnail.jpg" alt="t-shirt design" />
+                            <h2>t-shirt design</h2></a>
+
+                        </div></li>
+
+
+
+                            <li><div class="overlay"><a href="typography.html"><img src="images/typographythumbnail.jpg" alt="typography" />
+                            <h2>typography</h2></a>
+
+                        </div></li>
+
+                    </div>
+
+                    <div class="row2">
+
+                            <li><div class="overlay"><a href="colortheory.html"><img src="images/colortheorythumbnail.jpg" alt="color theory" />
+                            <h2>color theory</h2></a>
+
+                        </div></li>
+
+
+                            <li><div class="overlay"><a href="illustrations.html"><img src="images/illustrationsthumbnail.jpg" alt="illustrations" />
+                            <h2>illustrations</h2></a>
+
+                        </div></li>
+
+                    </div>
+
+                    <div class="row3">
+
+                            <li><div class="overlay"><a href="typeposter.html"><img src="images/typeposterthumbnail.jpg" alt="type poster" />
+                            <h2>type poster</h2></a>
+
+                        </div></li>
+
+
+                            <li><div class="overlay"><a href="visiblelanguage.html"><img src="images/visiblelanguagethumbnail.jpg" alt="visible language" />
+                            <h2>visible language</h2></a>
+
+                        </div></li>
+                    </div>
+                </ul>
+            </nav>
+        </main>
+
+        <!--end main content-->
+
+
+
+    </div>
+
+
+    <script>
+  document.getElementById('hamburgler').addEventListener('click', checkNav);
+  window.addEventListener("keyup", function(e) {
+    if (e.keyCode == 27) closeNav();
+  }, false);
+
+  function checkNav() {
+    if (document.body.classList.contains('hamburgler-active')) {
+      closeNav();
+    } else {
+      openNav();
+    }
+  }
+
+  function closeNav() {
+    document.body.classList.remove('hamburgler-active');
+  }
+
+  function openNav() {
+    document.body.classList.add('hamburgler-active');
+  }
+</script>
+
+</body>
+
+</html>
