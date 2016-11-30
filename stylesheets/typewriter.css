@@ -54,7 +54,6 @@ table {
 	width: 300px;
 	margin-top: 10px;
 
-
 }
 
 .right img {
@@ -116,21 +115,6 @@ table {
 
 /*---------- IMAGES ----------- */
 
-right img {
-	max-width: 100%;
-  height: auto;
-	margin-top: 10px;
-	padding:0px;
-}
-
-
-left img {
-	max-width: 300px;
-	height: auto;
-	margin-top:13px;
-	overflow: hidden;
-	margin-bottom:-3px;
-}
 
 .phototable img {
 	width: 164px;
