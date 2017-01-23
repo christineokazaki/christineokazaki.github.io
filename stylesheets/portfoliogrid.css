@@ -426,6 +426,7 @@ h4 {
 	.main-nav {
 	display: table;
 width: 100%;
+background-color: white;
 }
 
 
@@ -532,6 +533,7 @@ width: 100%;
 	.main-nav {
 	display: table;
 width: 100%;
+background-color: white;
 }
 
 
@@ -605,6 +607,7 @@ width: 100%;
 		.main-nav {
 		display: table;
 	width: 100%;
+	background-color: white;
 	}
 
 
@@ -653,6 +656,12 @@ width: 100%;
 
 
 @media only screen and (max-width: 650px) {
+	.main-nav {
+	display: table;
+width: 100%;
+background-color: white;
+}
+
 	.main-nav ul {
 		margin-left: -3px;
 		background-color: white;
