@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Christine Okazaki</title>
+	<link href="stylesheets/portfoliogrid.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600|Source+Sans+Pro" rel="stylesheet">
+	<meta content="Student, sans-serif enthusiast, and graphic designer with a particular interest in typography." name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="hamburgler-menu">
+			<ul class="hamburgler-menu-list">
+				<li>
+					<a href="about.html">about</a>
+				</li>
+
+
+				<li>
+					<a href="portfoliogrid.html">work</a>
+				</li>
+
+
+				<li>
+					<a href="mailto:caokazaki@ucdavis.edu">Contact</a>
+				</li>
+			</ul>
+		</div>
+
+
+		<div class="hamburgler-icon-wrapper" id="hamburgler">
+			<span class="hamburgler-icon"></span>
+		</div>
+		<!--START NAV-->
+
+
+		<nav class="main-nav">
+			<div class="logo-wrapper"><img alt="logo" src="images/logo.png">
+			</div>
+
+
+			<h1>christine okazaki</h1>
+
+
+			<ul>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+
+
+				<li>
+					<a href="portfoliogrid.html">Work</a>
+				</li>
+
+
+				<li>
+					<a href="mailto:caokazaki@ucdavis.edu">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<!--end nav-->
+		<!--START MAIN CONTENT-->
+
+    <main>
+        <figure>
+          <figcaption>
+            <h4>paul rand: design and the play instinct</h4>
+            <p>This was our final project for DES 115: Letterforms & Typography at UC Davis. Given the text and images about Paul Rand, we were to design a book using a grid system. <br/>
+<br>
+When researching Paul Rand for inspiration, I found that many of his designs were either extremely simple, or very playful and colorful. After several drafts, I decided on imitating the style of his cover for “Design Form and Chaos”. I settled on Bodoni as the typeface for my header, and Futura for the body type.<br/>
+<br>
+I chose green as a spot color to give a bright, playful feeling, including it throughout the book behind the headers as a splash of paint, and in some of the images as well. In order to create balance between the text and images, I carried over elements of the images to surround the text. I also paid careful attention to the kerning of the body text, so that the paragraphs could look as uniform as possible. </p>
+          </figcaption>
+          <img class="portfolio-img" src="images/paulrand1.jpg" alt="paul rand book 1"/>
+<img class="portfolio-img" src="images/paulrand2.jpg" alt="paul rand book 2"/>
+<img class="portfolio-img" src="images/paulrand3.jpg" alt="paul rand book 3"/>
+<img class="portfolio-img" src="images/paulrand4.jpg" alt="paul rand book 4"/>
+<img class="portfolio-img" src="images/paulrand5.jpg" alt="paul rand book 5"/>
+<img class="portfolio-img" src="images/paulrand6.jpg" alt="paul rand book 6"/>
+
+
+
+        </figure>
+      </main>
+
+
+    <!--end main content-->
+
+
+
+    </div>
+    <script>
+    document.getElementById('hamburgler').addEventListener('click', checkNav);
+    window.addEventListener("keyup", function(e) {
+    if (e.keyCode == 27) closeNav();
+    }, false);
+
+    function checkNav() {
+    if (document.body.classList.contains('hamburgler-active')) {
+      closeNav();
+    } else {
+      openNav();
+    }
+    }
+
+    function closeNav() {
+    document.body.classList.remove('hamburgler-active');
+    }
+
+    function openNav() {
+    document.body.classList.add('hamburgler-active');
+    }
+    </script>
+
+  </body>
+
+</html>

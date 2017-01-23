@@ -1,134 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Christine Okazaki</title>
-    <link href="stylesheets/portfoliogrid.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto+Condensed:300i,400,700" rel="stylesheet">
-    <meta name="description" content="Student, sans-serif enthusiast, and graphic designer with a particular interest in typography.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+
+	<title>Christine Okazaki</title>
+	<link href="stylesheets/portfoliogrid.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600|Source+Sans+Pro" rel="stylesheet">
+	<meta content="Student, sans-serif enthusiast, and graphic designer with a particular interest in typography." name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
 
 <body>
-
-    <div class="wrapper">
-      <div class="hamburgler-menu">
-  <ul class="hamburgler-menu-list">
-    <li><a href="about.html">about</a></li>
-    <li><a href="portfoliogrid.html">work</a></li>
-    <li><a href="mailto:caokazaki@ucdavis.edu">Contact</a></li>
-
-  </ul>
-</div>
-
-<div id="hamburgler" class="hamburgler-icon-wrapper">
-  <span class="hamburgler-icon"></span>
-</div>
-
-    
+	<div class="wrapper">
+		<div class="hamburgler-menu">
+			<ul class="hamburgler-menu-list">
+				<li>
+					<a href="about.html">about</a>
+				</li>
 
 
-        <!--START NAV-->
-
-        <nav class="main-nav">
-            <div class="logo-wrapper">
-                <img src="images/logoonblack.jpg" alt="logo" />
-            </div>
-            <ul>
-                <li><a href="about.html">+About</a></li>
-                <li><a href="portfoliogrid.html">+Work</a></li>
-                <li><a href="mailto:caokazaki@ucdavis.edu">+Contact</a></li>
-
-                <li><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fchristineokazaki.github.io%2Fportfoliogrid.html">+W3C Validation</a></li>
-            </ul>
-        </nav>
-
-        <!--end nav-->
-
-        <!--START MAIN CONTENT-->
-
-        <main>
-            <nav class="portfolio-nav">
-                <ul>
-                    <div class="row1">
-
-                            <li><div class="overlay"><a href="tshirtdesign.html"><img src="images/tshirtdesignthumbnail.jpg" alt="t-shirt design" />
-                            <h2>t-shirt design</h2></a>
-
-                        </div></li>
+				<li>
+					<a href="portfoliogrid.html">work</a>
+				</li>
 
 
-
-                            <li><div class="overlay"><a href="typography.html"><img src="images/typographythumbnail.jpg" alt="typography" />
-                            <h2>typography</h2></a>
-
-                        </div></li>
-
-                    </div>
-
-                    <div class="row2">
-
-                            <li><div class="overlay"><a href="colortheory.html"><img src="images/colortheorythumbnail.jpg" alt="color theory" />
-                            <h2>color theory</h2></a>
-
-                        </div></li>
+				<li>
+					<a href="mailto:caokazaki@ucdavis.edu">Contact</a>
+				</li>
+			</ul>
+		</div>
 
 
-                            <li><div class="overlay"><a href="illustrations.html"><img src="images/illustrationsthumbnail.jpg" alt="illustrations" />
-                            <h2>illustrations</h2></a>
-
-                        </div></li>
-
-                    </div>
-
-                    <div class="row3">
-
-                            <li><div class="overlay"><a href="typeposter.html"><img src="images/typeposterthumbnail.jpg" alt="type poster" />
-                            <h2>type poster</h2></a>
-
-                        </div></li>
+		<div class="hamburgler-icon-wrapper" id="hamburgler">
+			<span class="hamburgler-icon"></span>
+		</div>
+		<!--START NAV-->
 
 
-                            <li><div class="overlay"><a href="visiblelanguage.html"><img src="images/visiblelanguagethumbnail.jpg" alt="visible language" />
-                            <h2>visible language</h2></a>
+		<nav class="main-nav">
+			<div class="logo-wrapper"><img alt="logo" src="images/logo.png">
+			</div>
 
-                        </div></li>
-                    </div>
-                </ul>
-            </nav>
-        </main>
 
-        <!--end main content-->
+			<h1>christine okazaki</h1>
+
+
+			<ul>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+
+
+				<li>
+					<a href="portfoliogrid.html">Work</a>
+				</li>
+
+
+				<li>
+					<a href="mailto:caokazaki@ucdavis.edu">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<!--end nav-->
+		<!--START MAIN CONTENT-->
+
+
+		<main>
+             <div class="gridwrapper"><nav class="portfolio-nav">
+                 <ul>
+
+
+                             <li><a href="tshirtdesign.html"><img src="images/tshirtdesignthumbnail.png" alt="t-shirt design" />
+                             <h2>t-shirt design</h2></li></a>
 
 
 
-    </div>
 
 
-    <script>
-  document.getElementById('hamburgler').addEventListener('click', checkNav);
-  window.addEventListener("keyup", function(e) {
-    if (e.keyCode == 27) closeNav();
-  }, false);
+														 <li><a href="typography.html"><h3>typography</h3></a><img src="images/typographythumbnail2.jpg" alt="typography" />
 
-  function checkNav() {
-    if (document.body.classList.contains('hamburgler-active')) {
-      closeNav();
-    } else {
-      openNav();
-    }
-  }
 
-  function closeNav() {
-    document.body.classList.remove('hamburgler-active');
-  }
+                        </li>
 
-  function openNav() {
-    document.body.classList.add('hamburgler-active');
-  }
-</script>
 
+
+
+
+                             <li><a href="colortheory.html"><img src="images/colortheorythumbnail.jpg" alt="color theory" />
+                             <h2>color theory</h2></a>
+
+                         </li>
+
+
+
+														 <li><a href="illustrations.html"><h3>illustrations</h3><img src="images/illustrationsthumbnail.jpg" alt="illustrations" /></a>
+
+
+                         </li>
+
+
+
+                             <li><a href="paulrand.html"><img src="images/paulrandthumbnail.jpg" alt="paul rand" />
+                             <h2>paul rand</h2></a>
+
+                         </li>
+
+
+
+															<li><a href="visiblelanguage.html"><h3>visible language</h3><img src="images/visiblelanguagethumbnail.jpg" alt="visible language" /></a>
+
+
+                         </li>
+
+                 </ul>
+             </nav>
+         </main></div>
+
+         <!--end main content-->
+		<!--end main content-->
+	</div>
+	<script>
+	    document.getElementById('hamburgler').addEventListener('click', checkNav);
+	    window.addEventListener("keyup", function(e) {
+	      if (e.keyCode == 27) closeNav();
+	    }, false);
+
+	    function checkNav() {
+	      if (document.body.classList.contains('hamburgler-active')) {
+	        closeNav();
+	      } else {
+	        openNav();
+	      }
+	    }
+
+	    function closeNav() {
+	      document.body.classList.remove('hamburgler-active');
+	    }
+
+	    function openNav() {
+	      document.body.classList.add('hamburgler-active');
+	    }
+	</script>
 </body>
-
 </html>
