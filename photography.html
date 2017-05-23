@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Christine Okazaki</title>
+	<link href="stylesheets/portfoliogrid.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600|Source+Sans+Pro" rel="stylesheet">
+	<meta content="Student, sans-serif enthusiast, and graphic designer with a particular interest in typography." name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="hamburgler-menu">
+			<ul class="hamburgler-menu-list">
+				<li>
+					<a href="about.html">about</a>
+				</li>
+
+
+				<li>
+					<a href="portfolio.html">work</a>
+				</li>
+
+
+				<li>
+					<a href="mailto:caokazaki@ucdavis.edu">Contact</a>
+				</li>
+			</ul>
+		</div>
+
+
+		<div class="hamburgler-icon-wrapper" id="hamburgler">
+			<span class="hamburgler-icon"></span>
+		</div>
+		<!--START NAV-->
+
+
+		<nav class="main-nav">
+			<div class="logo-wrapper"><img alt="logo" src="images/logo.png">
+			</div>
+
+
+			<h1>christine okazaki</h1>
+
+
+			<ul>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+
+
+				<li>
+					<a href="portfolio.html">Work</a>
+				</li>
+
+
+				<li>
+					<a href="mailto:christineokazaki10@gmail.com">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<!--end nav-->
+		<!--START MAIN CONTENT-->
+
+    <main>
+        <figure>
+          <figcaption>
+            <h4>photography</h4>
+            <p>Photography is an area I would love to continue exploring in further depth. I have always enjoyed taking my DSLR with me to capture moments with my friends, and during my past Winter Quarter at UC Davis, I had the opportunity to learn more about the technicalities of photography in the course Digital Photography for Designers. These are some of the shots I took during the course.
+            </p>
+          </figcaption>
+          <img class="portfolio-img" src="images/photography1.jpg" alt="photograph 1"/>
+          <img class="portfolio-img" src="images/photography2.jpg" alt="photograph 2"/>
+          <img class="portfolio-img" src="images/photography3.jpg" alt="photograph 3"/>
+          <img class="portfolio-img" src="images/photography4.jpg" alt="photograph 4"/>
+          <img class="portfolio-img" src="images/photography5.jpg" alt="photograph 5"/>
+          <img class="portfolio-img" src="images/photography6.jpg" alt="photograph 6"/>
+          <img class="portfolio-img" src="images/photography7.jpg" alt="photograph 7"/>
+        </figure>
+      </main>
+
+
+    <!--end main content-->
+
+
+
+    </div>
+    <script>
+    document.getElementById('hamburgler').addEventListener('click', checkNav);
+    window.addEventListener("keyup", function(e) {
+    if (e.keyCode == 27) closeNav();
+    }, false);
+
+    function checkNav() {
+    if (document.body.classList.contains('hamburgler-active')) {
+      closeNav();
+    } else {
+      openNav();
+    }
+    }
+
+    function closeNav() {
+    document.body.classList.remove('hamburgler-active');
+    }
+
+    function openNav() {
+    document.body.classList.add('hamburgler-active');
+    }
+    </script>
+
+  </body>
+
+</html>

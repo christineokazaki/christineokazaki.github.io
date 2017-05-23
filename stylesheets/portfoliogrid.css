@@ -200,12 +200,15 @@ h1 {
 		letter-spacing: 2px;
 }
 
-
+.main-nav li a,
+a:visited {
+    color: white;
+}
 
 a,
 a:visited {
     text-decoration: none;
-    color: white;
+    color: #3a3738;
 }
 
 .main-nav li:hover {
@@ -247,16 +250,12 @@ a:visited {
   width: 50%;
 }
 
-.portfolio-nav li:nth-child(2),
-.portfolio-nav li:nth-child(4),
-.portfolio-nav li:nth-child(6) {
+.portfolio-nav li:nth-child(even) {
   text-align: right;
 	background-color: #3a3738;
 }
 
-.portfolio-nav li:nth-child(1),
-.portfolio-nav li:nth-child(3),
-.portfolio-nav li:nth-child(5){
+.portfolio-nav li:nth-child(odd){
 	background: #6A1311;
 }
 
@@ -291,6 +290,9 @@ figcaption p {
 		padding-bottom: 15px;
 		width: 80%;
 }
+
+
+
 
 h4 {
 	font-size: 1.8em;
