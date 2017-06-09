@@ -80,6 +80,9 @@ header {
 		text-align: center;
 }
 
+a:link {
+	text-decoration: underline;
+}
 
 h2 {
 	font-weight: 600;
@@ -203,11 +206,11 @@ h1 {
 .main-nav li a,
 a:visited {
     color: white;
+		text-decoration: none;
 }
 
 a,
 a:visited {
-    text-decoration: none;
     color: #3a3738;
 }
 
