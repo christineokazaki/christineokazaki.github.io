@@ -148,7 +148,7 @@ body {
     color: black;
     font-size: 0.813em;
     line-height: 1.375em;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 a,
 visited {
@@ -210,7 +210,8 @@ li {
     display: inline-block;
 }
 li a {
-    font: 16px Montserrat;
+    font-size: 16px
+		font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: white;
@@ -271,7 +272,8 @@ li a {
 visited {
     white-space: nowrap;
     color: white;
-    font: 400 20px Montserrat;
+    font-size: 20px
+		font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     position: absolute;
@@ -524,7 +526,8 @@ visited {
 
 .about-subhead {
     letter-spacing: 0.02em;
-    font: .82em 'Roboto';
+    font-size: .82em
+		font-family: 'Roboto', sans-serif;
 }
 
 .about-subhead p {
@@ -538,7 +541,7 @@ h5 {
 	background-color: #d88869;
 	color: white;
 	padding: 10px;
-	font: 3.5em 'Montserrat';
+	font-family: 3.5em 'Montserrat', sans-serif;
 	margin-top: 5%;
 	margin-bottom: 10px;
 }
@@ -564,7 +567,8 @@ h5 {
 /* This is the main heading that appears on the blue section */
 
 .splash-head {
-    font: 40px 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
+		font-size: 40px;
     font-weight: 400;
     color: white;
     padding: 10px;
@@ -594,7 +598,8 @@ h5 {
     color: white;
     width: auto;
     padding: 10px;
-    font: .75em 'Montserrat';
+    font-size: .75em
+		font-family: 'Montserrat', sans-serif;
     margin: 5px;
     letter-spacing: 1px;
 }
@@ -609,7 +614,8 @@ p {
     color: white;
     letter-spacing: 0.05em;
     opacity: 0.8;
-    font: 14px 'Roboto';
+    font-size: 14px;
+		font-family: 'Roboto', sans-serif;
 }
 
 .splash-subhead p {
@@ -635,7 +641,8 @@ p {
 /* This is the class used for the main content headers (<h2>) */
 
 .content-head {
-    font: 25px 'Montserrat';
+    font-size: 25px
+		font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: auto;
@@ -676,7 +683,8 @@ p {
 
 
 h3 {
-    font: 20px 'Montserrat';
+    font-size: 20px
+		font-family: 'Montserrat', sans-serif;
     color: white;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -789,7 +797,7 @@ figcaption {
 figcaption p {
     font-size: 13px;
     line-height: 15px;
-    font: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 15px;
     padding-bottom: 15px;
     width: 60%;
