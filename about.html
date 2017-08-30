@@ -1,112 +1,63 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
 
-	<title>Christine Okazaki</title>
-	<link href="stylesheets/portfoliogrid.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:600|Source+Sans+Pro" rel="stylesheet">
-	<meta content="Student, sans-serif enthusiast, and graphic designer with a particular interest in typography." name="description">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Christine Okazaki</title>
+    <link href="stylesheets/portfoliogrid.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400|Roboto:300" rel="stylesheet" type="text/css">
+    <meta content="Student, sans-serif enthusiast, and graphic designer with a particular interest in typography." name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
 
 <body>
-	<div class="wrapper">
-		<div class="hamburgler-menu">
-			<ul class="hamburgler-menu-list">
-				<li>
-					<a href="about.html">about</a>
-				</li>
+
+    <!--START NAV-->
+
+    <!--end nav-->
+    <!--START MAIN CONTENT-->
+
+    <div class="aboutcover">
+
+			<nav class="nav">
+					<ul>
+							<li><a href="portfolio.html">work</a>
+							</li>
+							<li><a href="about.html">About</a>
+							</li>
+							<li><a href="mailto:christineokazaki10@gmail.com">Contact</a>
+							</li>
+					</ul>
+			</nav>
 
 
-				<li>
-					<a href="portfolio.html">work</a>
-				</li>
+			<div class="aboutsplash">
+					<h4 class="aboutproject-head">hi there!</h4>
+					<div class="about-subhead">
+						<p>
+							I'm Christine Okazaki, a designer going into my last year at UC Davis, studying Design and Psychology. I was born and raised in the Bay Area, but I’m constantly daydreaming about what the rest of the world looks like. I’m a strong advocate for the iterative design process and the power of a carefully chosen font combination. I’m focused on graphics, but I’m genuinely interested in what the rest of the design world has to offer. There's also special place in my heart for typography and good boba. Feel free to say hi!
+						<br><br>
+								<a href="mailto:christineokazaki10@gmail.com"><img width="35" alt="Social Media Icons" class="pure-img-responsive" src="images/-ICONmail_blue.png">
+								</a>
+								<a href="https://www.linkedin.com/in/christine-okazaki-777654a8/"><img width="25" alt="Social Media Icons" class="pure-img-responsive" src="images/-ICONlinkedin_blue.png">
+								</a>
+								<a href="http://instagram.com/mangostineee"><img width="25" alt="Social Media Icons" class="pure-img-responsive" src="images/-ICONinstagram_blue.png">
+								</a>
+</p>
+					</div>
 
-
-				<li>
-					<a href="mailto:christineokazaki10@gmail.com">Contact</a>
-				</li>
-			</ul>
-		</div>
-
-
-		<div class="hamburgler-icon-wrapper" id="hamburgler">
-			<span class="hamburgler-icon"></span>
-		</div>
-		<!--START NAV-->
-
-
-		<nav class="main-nav">
-			<div class="logo-wrapper"><img alt="logo" src="images/logo.png">
 			</div>
+	</div>
 
 
-			<h1>christine okazaki</h1>
 
-
-			<ul>
-				<li>
-					<a href="about.html">About</a>
-				</li>
-
-
-				<li>
-					<a href="portfolio.html">Work</a>
-				</li>
-
-
-				<li>
-					<a href="mailto:christineokazaki10@gmail.com">Contact</a>
-				</li>
-			</ul>
-		</nav>
-		<!--end nav-->
-		<!--START MAIN CONTENT-->
-
-    <main>
-        <figure>
-
-          <img class="portfolio-img" src="images/IMG_4818.JPG" alt="about me photo" />
-
-          <figcaption>
-            <h4>about me</h1>
-            <p>Hi! My name is Christine. I like sweets and sans-serif fonts. I’m a third year at UC Davis studying Design and Psychology. I grew up in the Bay Area with a passion for anything visual -- from drawing, to movie posters, to websites, I have always admired what people are able to create and convey through design. However, it wasn’t until my junior year of high school, when I joined the yearbook staff, that I realized design was something I could actively pursue. Making layouts and choosing the placement of text and photos revealed to me just how important design is. While I am particularly fond of graphics and typography, I am still hoping to explore much more that this field has to offer, as I continue to work on and expand my existing skills.
-
-            </p>
-          </figcaption>
-        </figure>
-      </main>
 
 
     <!--end main content-->
 
 
-
-    </div>
-    <script>
-    document.getElementById('hamburgler').addEventListener('click', checkNav);
-    window.addEventListener("keyup", function(e) {
-    if (e.keyCode == 27) closeNav();
-    }, false);
-
-    function checkNav() {
-    if (document.body.classList.contains('hamburgler-active')) {
-      closeNav();
-    } else {
-      openNav();
-    }
-    }
-
-    function closeNav() {
-    document.body.classList.remove('hamburgler-active');
-    }
-
-    function openNav() {
-    document.body.classList.add('hamburgler-active');
-    }
-    </script>
 
   </body>
 

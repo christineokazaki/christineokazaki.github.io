@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Christine Okazaki</title>
+	<link href="stylesheets/portfoliogrid.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600|Source+Sans+Pro" rel="stylesheet">
+	<meta content="Student, sans-serif enthusiast, and graphic designer with a particular interest in typography." name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="hamburgler-menu">
+			<ul class="hamburgler-menu-list">
+				<li>
+					<a href="about.html">about</a>
+				</li>
+
+
+				<li>
+					<a href="portfolio.html">work</a>
+				</li>
+
+
+				<li>
+					<a href="mailto:caokazaki@ucdavis.edu">Contact</a>
+				</li>
+			</ul>
+		</div>
+
+
+		<div class="hamburgler-icon-wrapper" id="hamburgler">
+			<span class="hamburgler-icon"></span>
+		</div>
+		<!--START NAV-->
+
+
+		<nav class="main-nav">
+			<div class="logo-wrapper"><img alt="logo" src="images/logo.png">
+			</div>
+
+
+			<h1>christine okazaki</h1>
+
+
+			<ul>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+
+
+				<li>
+					<a href="portfolio.html">Work</a>
+				</li>
+
+
+				<li>
+					<a href="mailto:christineokazaki10@gmail.com">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<!--end nav-->
+		<!--START MAIN CONTENT-->
+
+    <main>
+        <figure>
+          <figcaption>
+            <h4>delizioso</h4>
+            <p>This project was completed for a branding class. Our task was to choose a food product to repackage into something that was more sustainable and also included biomimicry. In addition, we re-branded the product, and designed the business system and graphic standard. During this process, we were also required to consider marketing applications and the brand’s target audience. <br><br>
+
+I decided to re-design packaging for pasta sauce. Currently, the market offers a wide variety of pasta sauces in many different flavors. However, almost all of them come packaged in jars -- which require many resources to create -- and have similar labeling that makes it difficult to distinguish one from the other. This creates a manufactured feel, and also makes it harder to pick one that stands out. They also come in relatively large servings, and can be hard for one person to finish the entire jar before the expiration date. <br><br>
+
+To solve these issues, I re-packaged the product in a tube. Not only would this be more sustainable, as it would be made out of recyclable plastic, but its smaller serving size would also eliminate food waste and be perfect for those cooking for one. <br><Br>
+
+Below are some images from the <a href=”https://issuu.com/christineokazaki/docs/okazakichristine_graphicstandard”>graphic standard</a> and <a href=”https://issuu.com/christineokazaki/docs/process_manual”>process manual</a>, and the mock-up I created of the final product.
+            </p>
+          </figcaption>
+					<img class="portfolio-img" src="images/businesscard.jpg" alt="delizioso1"/>
+					<img class="portfolio-img" src="images/businesscardback.jpg" alt="delizioso2"/>
+					<img class="portfolio-img" src="images/envelopefront.jpg" alt="delizioso3"/>
+					<img class="portfolio-img" src="images/envelopeback.jpg" alt="delizioso4"/>
+					<img class="portfolio-img" src="images/letterheadfront.jpg" alt="delizioso5"/>
+					<img class="portfolio-img" src="images/delizioso1.png" alt="delizioso8"/>
+          <img class="portfolio-img" src="images/delizioso2.png" alt="delizioso9"/>
+          <img class="portfolio-img" src="images/delizioso3.png" alt="delizioso10"/>
+					<img class="portfolio-img" src="images/deliziosoapp.jpg" alt="delizioso6"/>
+					<img class="portfolio-img" src="images/apron.jpg" alt="delizioso7"/>
+					<img class="portfolio-img" src="images/delizioso6.jpg" alt="delizioso11"/>
+					<img class="portfolio-img" src="images/delizioso7.jpg" alt="delizioso12"/>
+					<img class="portfolio-img" src="images/delizioso8.jpg" alt="delizioso13"/>
+
+        </figure>
+      </main>
+
+
+    <!--end main content-->
+
+
+
+    </div>
+    <script>
+    document.getElementById('hamburgler').addEventListener('click', checkNav);
+    window.addEventListener("keyup", function(e) {
+    if (e.keyCode == 27) closeNav();
+    }, false);
+
+    function checkNav() {
+    if (document.body.classList.contains('hamburgler-active')) {
+      closeNav();
+    } else {
+      openNav();
+    }
+    }
+
+    function closeNav() {
+    document.body.classList.remove('hamburgler-active');
+    }
+
+    function openNav() {
+    document.body.classList.add('hamburgler-active');
+    }
+    </script>
+
+  </body>
+
+</html>

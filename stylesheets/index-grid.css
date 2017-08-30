@@ -1,0 +1,43 @@
+.fluid-span-1 {
+  width: 15.8333333333%;
+}
+
+.fluid-span-2 {
+  width: 32.6666666667%;
+}
+
+.fluid-span-3 {
+  width: 49.5%;
+}
+
+.fluid-span-4 {
+  width: 66.3333333333%;
+}
+
+.fluid-span-5 {
+  width: 83.1666666667%;
+}
+
+.fluid-span-6 {
+  width: 100%;
+}
+
+.fluid-offset-1 {
+  margin-left: 16.8333333333%;
+}
+
+.fluid-offset-2 {
+  margin-left: 33.6666666667%;
+}
+
+.fluid-offset-3 {
+  margin-left: 50.5%;
+}
+
+.fluid-offset-4 {
+  margin-left: 67.3333333333%;
+}
+
+.fluid-offset-5 {
+  margin-left: 84.1666666667%;
+}
